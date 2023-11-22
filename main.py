@@ -27,7 +27,6 @@ color_list = [(225, 223, 224), (199, 175, 117), (124, 36, 24), (210, 221, 213), 
               (179, 201, 186), (172, 153, 159), (212, 183, 177), (176, 198, 203), (150, 115, 120), (202, 185, 190),
               (40, 72, 82), (46, 73, 62), (47, 66, 82)]
 
-
 for dot_count in range(1, number_of_dots + 1):
     tim.dot(20, random.choice(color_list))
     tim.forward(50)
@@ -38,9 +37,6 @@ for dot_count in range(1, number_of_dots + 1):
         tim.setheading(180)
         tim.forward(500)
         tim.setheading(0)
-
-
-
 
 screen = turtle_module.Screen()
 screen.exitonclick()
